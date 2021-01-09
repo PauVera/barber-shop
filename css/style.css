@@ -9679,7 +9679,7 @@ body {
 }
 
 .post {
-  padding: 2.5rem 0;
+  padding: 2.5rem;
   line-height: 3rem;
   color: #6c6e70;
 }
@@ -9717,11 +9717,11 @@ body {
   color: #ecbcba;
 }
 .author__bio {
-  visibility: hidden;
+  display: none;
 }
 @media only screen and (min-width: 768px) {
   .author__bio {
-    visibility: visible;
+    display: initial;
     text-align: left;
   }
   .author__bio__paragraph {
