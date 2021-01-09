@@ -31,7 +31,7 @@ body{
         display: flex;
         align-items: center;
     }
-    &__info{        
+    &__info{    background-color: $light-primary;    
         &__name{
             font-family: $secondary-font;
             font-size: $font-size-x-large;

@@ -9606,7 +9606,7 @@ nav.navbar div#navbarNav ul.navbar-nav li.nav-item a.active {
   text-align: center;
   box-sizing: border-box;
   position: relative;
-  background-image: url("/img/post-image.jpg");
+  background-image: url("./../img/post-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -9704,6 +9704,9 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
+}
+.author__info {
+  background-color: #fff;
 }
 .author__info__name {
   font-family: "Playfair Display", serif;
