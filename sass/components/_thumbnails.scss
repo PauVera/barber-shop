@@ -1,0 +1,13 @@
+.pic-thumbnail{
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $light-terciary;
+    width: 50%;
+}
+
+@media only screen and (min-width: 768px){
+    .pic-thumbnail{    
+        width: 100%;
+    }
+}

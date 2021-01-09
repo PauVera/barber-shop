@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- GOOGLE FONTS: ROBOTO (300,400), PLAYFAIR DISPLAY (ITALIC 900, REGULAR 400)-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/18d33ec6d5.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img class="logo-img" src="/img/logo.png" alt="Logo Barber Shop"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trabajos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Horas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- HEADER -->
+    <header>
+        <section class="header">
+            <h1><span class="block">5 formas de cuidar</span><span class="block">tu corte de cabello</span></h1>
+            <div class="header__icon">
+                <i class="fas fa-angle-double-down"></i>
+            </div>
+        </section>
+    </header>
+
+    <!-- MAIN SECTION (ENTRADA DE BLOG) -->
+    <main>
+        <section class="container post">
+            <p class="post__date">08 de enero de 2021</p>
+            <p class="post__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda enim veniam dolor
+                ipsam recusandae, nisi eaque totam ut accusantium. Corrupti, beatae, officia magni iusto, atque
+                cupiditate totam fugiat autem laudantium magnam molestiae quaerat? Proin rhoncus ante ut dapibus
+                imperdiet. Nam eleifend at neque quis venenatis. Phasellus gravida augue
+                ornare, aliquam nunc in, sagittis nunc. Morbi convallis diam et nibh dictum semper. Quisque nisl erat,
+                fringilla eget orci vitae, consequat volutpat ligula. Duis risus metus, tincidunt sit amet luctus in,
+                posuere pretium justo. Quo voluptatibus ipsam commodi id!
+                Ducimus, quaerat deleniti nam a totam voluptatem. Distinctio eius explicabo nihil suscipit.</p>
+            <p class="post__text">In placerat ante non auctor elementum. Phasellus id ultricies mi. Aenean tincidunt
+                sagittis pretium. Maecenas auctor sit amet mi sed commodo. Nam venenatis, lorem egestas convallis porta,
+                risus ligula tincidunt mauris, vehicula venenatis arcu sapien eget justo. Duis feugiat tempus ligula nec
+                sodales. Aenean lectus enim, elementum vel pharetra in, pulvinar et sem. Cras mattis nisl id massa
+                bibendum semper. Morbi lectus odio, mattis sed est eu, congue ornare nisl. Suspendisse convallis
+                hendrerit lectus, feugiat cursus tellus vehicula porttitor.</p>
+            <p class="post__text">Sed at malesuada massa. Morbi et augue consequat, egestas tortor vitae, aliquet purus.
+                Proin rhoncus ante ut dapibus imperdiet. Nam eleifend at neque quis venenatis. Phasellus gravida augue
+                ornare, aliquam nunc in, sagittis nunc. Morbi convallis diam et nibh dictum semper. Quisque nisl erat,
+                fringilla eget orci vitae, consequat volutpat ligula. Duis risus metus, tincidunt sit amet luctus in,
+                posuere pretium justo.</p>
+            <p class="post__text">Fusce et ligula a ipsum commodo auctor. Suspendisse eget nunc commodo, condimentum
+                ante ut, malesuada sapien. Quisque viverra tellus vitae lectus luctus, eu pretium neque aliquet. Aenean
+                ornare, quam volutpat congue scelerisque, nunc ante scelerisque est, at bibendum est nisi non lectus. In
+                lobortis volutpat risus sit amet tristique.</p>
+            <p class="post__text">Vestibulum vel enim porta, lobortis justo nec, suscipit lectus. Duis vitae risus eu
+                lectus dignissim luctus. Quisque vitae auctor lectus, at tincidunt ligula. Ut et nunc justo. Nullam
+                pellentesque sagittis velit eu semper. Nam a urna ligula. Suspendisse sed blandit mauris, in pulvinar
+                lorem. Integer egestas, erat et facilisis convallis, mauris enim posuere erat, vel tincidunt lorem orci
+                eu risus. Sed neque dui, pharetra sed enim eu, pretium consectetur nibh. Cras efficitur magna lorem, ac
+                pharetra magna pulvinar pulvinar. Ut turpis ex, scelerisque eu nisi non, interdum sodales mauris.
+                Integer ut mollis neque.</p>
+            <!-- BOTONES PARA COMPARTIR POST EN RRSS -->
+            <section class="post__share">
+                <button type="button" class="boton btn btn-dark">Compartir</button>
+                <button type="button" class="boton btn btn-dark">Comentar en Twitter</button>
+            </section>
+        </section>
+
+        <!-- MINI BIO AUTOR -->
+        <section class="author">
+            <div class="container row author__container">
+                <div class="col-12 col-md-3 ">
+                    <img class="pic-thumbnail" src="/img/naomi-thai.png" alt="Foto Naomi Thai">
+                </div>
+                <div class="author__info col-12 col-md-3">
+                    <span class="block author__info__name">Naomi Thai</span>
+                    <span class="block author__info__rrss"><a href="#">@Naothai</a></span>
+                    <span class="block author__info__rrss"><a href="#">depelos.com</a></span>
+                </div>
+                <div class="author__bio col-md-6">
+                    <span class="author__bio__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
+                        sint, corrupti iure neque a labore aperiam ut debitis, voluptatem fugit, deleniti alias saepe
+                        perferendis pariatur!</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGINADOR -->
+        <section class="post__paginator">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled"><a class="page-link" href="#">Anterior</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+              </ul>
+        </section>
+    </main>
+
+    <footer class="footer bg-dark">
+        <img class="logo-img" src="/img/logo.png" alt="Logo Barber Shop">
+    </footer>
+
+</body>
+
+</html>

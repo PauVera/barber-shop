@@ -1,0 +1,75 @@
+/* ESTE PARCIAL CONTIENE LAS MODIFICACIONES A LAS CLASES DE BOOTSTRAP */
+
+.bg-dark, .navbar-dark{
+    background-color: $dark-primary!important;
+}
+
+nav.navbar div#navbarNav ul.navbar-nav li.nav-item a.nav-link{
+    color: $light-primary;
+    &:hover{
+        color: $light-terciary;
+    }
+}
+
+nav.navbar div#navbarNav ul.navbar-nav li.nav-item a.active{
+    color: $accent-secondary;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 2rem;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: $dark-terciary;
+    border-color: $dark-terciary;
+}
+.btn-dark:hover {
+    color: #fff;
+    background-color: $light-terciary;
+    border-color: $light-terciary;
+}
+.btn-dark:focus, .btn-dark.focus {
+    box-shadow: 0 0 0 0.2rem $light-terciary;
+}
+.btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active, .show > .btn-dark.dropdown-toggle {
+    color: #fff;
+    background-color: $dark-terciary;
+    border-color:$dark-terciary;
+}
+.btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-dark.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem $light-terciary;
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.page-item:last-child .page-link {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.page-link {
+    padding: 0.75rem 1rem;
+    color: $dark-primary;
+    border: 1px solid $light-terciary;
+}
+
+.page-item.active .page-link {
+    background-color: $dark-primary;
+    border-color: $dark-primary;
+}
+
+.page-item.disabled .page-link {
+    color: $dark-terciary;
+}
+
+.page-link:hover {
+    color: $light-primary;
+    background-color: $dark-terciary;
+    border-color: $dark-primary;
+  }

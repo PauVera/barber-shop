@@ -1,0 +1,22 @@
+/* ABSTRACT */
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+/* VENDORS */
+@import 'vendors/scss/bootstrap.scss';
+@import 'vendors/vendors-extension/bootstrap';
+/* BASE */
+//se ocupará reboot de bootstrap en vez de configurar reset propio
+@import 'base/typography';
+/* LAYOUT */
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/footer';
+/* COMPONENTS */
+@import 'components/buttons';
+@import 'components/links';
+@import 'components/paginator';
+@import 'components/images';
+@import 'components/thumbnails';
+/* PAGES */
+@import 'pages/blog';
+/* THEMES */
