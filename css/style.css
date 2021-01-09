@@ -9519,6 +9519,14 @@ h3 {
   background-color: #121619 !important;
 }
 
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
+.navbar-dark .navbar-toggler i {
+  font-size: 4.375rem;
+}
+
 nav.navbar div#navbarNav ul.navbar-nav li.nav-item a.nav-link {
   color: #fff;
 }

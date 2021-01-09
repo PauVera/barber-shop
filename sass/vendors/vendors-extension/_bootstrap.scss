@@ -4,6 +4,14 @@
     background-color: $dark-primary!important;
 }
 
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
+.navbar-dark .navbar-toggler i{
+    font-size: $font-size-xx-large;
+}
+
 nav.navbar div#navbarNav ul.navbar-nav li.nav-item a.nav-link{
     color: $light-primary;
     &:hover{
